@@ -1,0 +1,9 @@
+exp a(b|cd)*ef
+dot test1.dot
+exp (a*|b)*a
+dot test2.dot
+exp (a|b)*(aa|bb)(a|b)*
+dot test3.dot
+exp ((ab)*|c*)*d
+dot test4.dot
+end
